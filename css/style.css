@@ -1,0 +1,129 @@
+html,
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: Center;
+}
+
+/* --------- Header --------- */
+/* .header { */
+    /* background: aqua; */
+/* } */
+
+.nav {
+    padding: 28px 0;
+    border-bottom: 1px solid #828282;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color:  #828282;
+}
+
+a:hover {
+    color: #070707;
+
+}
+
+
+/* ------------------------ Main ----------------- */
+.first_screen {
+font-family: Open sans;
+font-style: Bold;
+font-size: 48px;
+
+
+Fill: Solid;
+}
+img {
+    display: block;
+  }
+
+.aside {
+   background: #F6F6F6;
+   text-align: center;
+   height: top;
+   
+}
+.h2 {
+ margin-block: 0;
+margin-bottom: 0px;
+padding-top: 100px;
+padding-bottom: 50px;
+font-family: Open Sans;
+font-size: 34px;
+text-align: Center;
+
+    
+
+}   
+
+.p {
+    margin-top: 0;
+}
+.h3{
+    text-align: center;
+}
+.rating-mini {
+
+	font-size: 0;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 26px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: black;
+}
+.flex-icons {
+    display: flex;
+}
+
+.user_link {
+    cursor: pointer;
+    text-decoration: underline;
+    
+
+}
+.contacts_buttom {
+    background-color: #070707;
+    color: #f4f0f0;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+.ikons {
+    width: 50px;
+    display: inline;
+    margin: 20px;
+}
+.end{
+    text-decoration: underline;
+}
